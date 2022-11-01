@@ -8,17 +8,17 @@
 
 # About this project
 
-Password Generator is a Front-End application to generate secure passwords for users.
-User can choose from 5 to 30 characters which include letters, numbers and special characters.
+-- Password Generator is a Front-End application to generate secure passwords for users.
+-- User can choose from 5 to 30 characters which include letters, numbers and special characters.
 
-This project is not published, it was made for the purpose of study.
+-- This project is not published, it was made for the purpose of study.
 
 #Tecnologies
 
-Created with HTML, CSS and JavaScript.
+-- Created with HTML, CSS and JavaScript.
 
 # Autor
 
 Camila Rossi
-Linkedin: https://www.linkedin.com/in/camila-rossi-82b2b667/
-E-mail: contact.camilarossi@gmail.com
+-- Linkedin: https://www.linkedin.com/in/camila-rossi-82b2b667/
+-- E-mail: contact.camilarossi@gmail.com
