@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Password Generator">
+    
+    <link rel="shortcut icon" href="./assets/" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f1544d6345.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <header class="logo">
+        <span><i class="fa-solid fa-lock"></i>  Password Generator  
+        <i class="fa-solid fa-lock"></i></span>
+    </header>
+    <main class="container-input">
+        
+        <h2>Make a strong password</h2>
+
+        <span id="valor"></span><span> characters</span>
+        <br />
+        <input id="slider" class="slider" type="range" min="5" max="30" value="15" />
+        
+        <button id="button" class="button-cta" onclick="generatePassword()">Generate now!</button>
+
+    </main>
+
+    <div id="container-password" onclick="copyPassword()" class="container-password hide">
+        <span class="title">your new password is:</span>
+        <span class="password" id="password"></span>
+    </div>
+
+  
+    <footer>
+        <p>Created by <a href="https://www.linkedin.com/in/camila-rossi-82b2b667/" target="_blank">◈ Camila Rossi.</a></p>
+    </footer>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

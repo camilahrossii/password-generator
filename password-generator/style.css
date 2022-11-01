@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: 
+    linear-gradient(rgba(17, 17, 17, 0.4), rgba(20 ,20, 20, 1)), url(./assets/lock.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color:  #FFFFFF;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 43px;  
+    text-align: center;
+    text-shadow: 0px 4px 8px #494949;
+}
+
+.container-input {
+    max-width: 600px;
+}
+
+.container-input h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4cdb29;
+}
+
+.container-input span {
+    display: inline;
+    align-items: flex-start;
+    font-size: 16px;
+    color:  #FFFFFF;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 60vh;
+    border-radius: 5px;
+    background: #c2c2c2;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+}
+
+.button-cta {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #4cdb29;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container-password {
+    cursor: pointer;
+    max-width: 480px;
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.password {
+    height: 60px;
+    width: 60vh;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    background: rgba(51, 51, 51, 0.4);
+    border: 1px solid #313131;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.password:hover {
+    transform: scale(1.05);
+}
+
+.hide {
+    display: none;
+}
+
+.container-password:hover .tooltip{
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
