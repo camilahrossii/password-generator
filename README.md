@@ -1,4 +1,4 @@
-##Password Generator
+<h1>Password Generator</h1>
 
 
 ![ScreenShottoGitHub](https://user-images.githubusercontent.com/116846050/199265293-a2263574-22bb-41ad-8aba-f6343a716a60.png)
