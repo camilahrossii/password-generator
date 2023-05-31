@@ -1,10 +1,5 @@
 <h1>Password Generator</h1>
 
-
-![ScreenShottoGitHub](https://user-images.githubusercontent.com/116846050/199265293-a2263574-22bb-41ad-8aba-f6343a716a60.png)
-
-![ScreenShottoGitHub2](https://user-images.githubusercontent.com/116846050/199261766-2d3bad72-fd56-4e4f-9c33-1e39b4f599d9.png)
-
 ## :lock: About this project <br>
 
  Password Generator is a Front-End application to generate secure passwords for users. <br>
